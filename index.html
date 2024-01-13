@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <title>Site De Dentista</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="icon" type="image/png" sizes="16x16"  href="/favicons/favicon-16x16.png">
+</head>
+<body>
+    <header>
+        <span>Clinica da Mulher</span>
+    </header>
+    <section class="hero">
+        <div class="box-img">
+            <img class="resposinva"  id="doutora"  src="/img/doutora2.webp" 
+          alt="Doutora">
+        </div>
+        <div class="box-txt">
+            <span>MARQUE SUA CONSULTA</span>
+            <h2>Saúde plena, <br>
+                Vida serena !</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Obcaecati quisquam, atque ut reprehenderit facere distinctio!
+                 Repudiandae quos, maiores quas necessitatibus autem magnam ea!
+                 Enim delectus doloremque necessitatibus dolore praesentium iusto.</p>
+                 <a href="#" class="btn-hero">MARCAR CONSULTA</a>
+        </div>
+        </div>
+    </section>
+    
+    <section class="especialidades">
+        <div class="box-item">
+            <h3>Especialidade 1</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid fugit libero recusandae aperiam eius adipisci nulla corporis odit dolores consequuntur provident velit, voluptatum deleniti distinctio blanditiis quos minus quod alias.</p>
+        </div>
+        <div class="box-item">
+            <h3>Especialidade 2</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid fugit libero recusandae aperiam eius adipisci nulla corporis odit dolores consequuntur provident velit, voluptatum deleniti distinctio blanditiis quos minus quod alias.</p>
+        </div>
+        <div class="box-item">
+            <h3>Especialidade 3</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid fugit libero recusandae aperiam eius adipisci nulla corporis odit dolores consequuntur provident velit, voluptatum deleniti distinctio blanditiis quos minus quod alias.</p>
+        </div>
+        <a href="#" class="btn-hero">MARCAR CONSULTA</a>
+    </section>
+
+    <footer>
+        <p>Clínica da Mulher © Todos direitos reservados</p>
+    </footer>
+
+    <div class="whats">
+        <a target="_blank" href="https://wa.me/5515999999999?text=Ol%C3%A1+gostaria+de+fazer+uma+consulta?">
+            <img id="doutora"  width="50" src="/img/feito.png">
+        </a>
+    </div>
+
+    <script>
+        const doutora = document.getElementById('doutora');
+
+        doutora.addEventListener('mouseover', function(){
+            doutora.src = "/img/doutora3.webp"
+        });
+        doutora.addEventListener('mouseout', function(){
+            doutora.src = "/img/doutora2.webp"
+        });
+
+    </script>
+</body>
+</html>
